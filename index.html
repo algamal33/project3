@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clcolator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1 id="number">0</h1>
+        <button class="bt1" onclick="add()">click</button>
+        <button class="bt2" onclick="del()">delet</button>
+        <span class="material-icons" id="settings">settings</span>
+
+    </div>
+
+
+
+    <div class="popup">
+        <div class="popup-content">
+            <span class="material-icons" id="close">close</span>
+            <div class="navbar">
+                    <ul>
+                        <li><a href="#set1" class="active">Bg color</a></li>
+                        <li><a href="#set2">Box color</a></li>
+                        <li><a href="#set3">text color</a></li>
+                        <li><a href="#set4">box shadow color</a></li>
+                        <li><a href="#set5">button click</a></li>
+                    </ul>                                                                                                                                                                                                                                   
+            </div>
+            <div class="sett">
+                <section class="set1" id="set1" style="margin: 5px;"><h1>chang backgrond color</h1><input type="color" name="color"  id="coll"></section>
+                <section class="set1" id="set2" style="margin: 5px;"><h1>change box color</h1><input type="color" name="color" id="coll"></section>
+                <section class="set1" id="set3" style="margin: 5px;"><h1>change text color</h1><input type="color" name="color" id="coll"></section>
+                <section class="set1" id="set4" style="margin: 5px;"><h1>change box shadow color</h1><input type="color" name="color" id="coll"></section>
+                <section class="set1" id="set5" style="margin: 5px;"><h1>change button click</h1><input type="color" name="color" id="coll"></section>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
