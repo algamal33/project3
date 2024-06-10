@@ -176,6 +176,9 @@ h1{
     top: 20px;
     padding-top: 50px;
 }
+#set1{
+    display:flex;
+}
 #set2,#set3,#set4,#set5{
     display:none;
 }
